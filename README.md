@@ -6,7 +6,7 @@
 
 <p align="center">
   I developed this challenge for the <b>Bootcamp GoStack</b> course as described
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-nodejs" target="_blank">First Node Project Challenge</a>. <br/>
+  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-fundamentos-nodejs" target="_blank">Challenge first node project</a>. <br/>
 </p>
 
 <blockquote align="center">“Always running in search of the goals!”</blockquote>
@@ -16,9 +16,9 @@
 <p align="center">
   <a href="#-thechnologies">🛸 Thechnologies</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-how-to-use">🤔 How To Use</a>
+  <a href="#-how-to-use">🤔 How to use</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-contact-section">☎ Contact Section</a>
+  <a href="#-contact-section">☎ Contact section</a>
 </p>
 
 <br>
@@ -32,7 +32,7 @@
 -  [nodemon](https://github.com/remy/nodemon)
 -  [VS Code](https://code.visualstudio.com/) and [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### 🤔 How To Use
+### 🤔 How to use
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/), [Yarn](https://yarnpkg.com/) installed on your computer. From your command line:
 
@@ -52,11 +52,11 @@ $ npm install
 $ yarn dev:server
 ```
 
-### ☎ Contact Section
+### ☎ Contact section
 
 + In: [Caio Henrique](https://www.linkedin.com/in/caio-caldas-024627171/)
 + E-mail: <a href="mailto:caiohenrique.developer@gmail.com">caiohenrique.developer@gmail.com</a>
-+ Personal Contact: Message me!
++ Personal contact: Message me!
 
 ---
 <p align="center">Done with ♥ by myself :pray:</p>
