@@ -1,4 +1,4 @@
-⚙ Challenge to manager general transactions
+<br>
 
 <h1 align="center">
   <img alt="Node Logo" title="Node Logo" src="https://github.com/caiohenrique-developer/desafio-primeiro-projeto-node/blob/master/assets/node-logo.png" width="150px" />
