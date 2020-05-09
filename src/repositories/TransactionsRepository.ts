@@ -3,7 +3,7 @@ import Transaction from '../models/Transaction';
 interface RequestDTO {
   title: string;
   value: number;
-  type: 'income';
+  type: 'income' | 'outcome';
 }
 
 interface Balance {
@@ -23,13 +23,33 @@ class TransactionsRepository {
     return this.transactions;
   }
 
-  // public getBalance({ income, outcome, total }: Balance): Balance {
-  //   const value = this.transactions.reduce(
-  //     (income, outcome) => income + outcome;
-  //   );
+  public getBalance(): Balance {
+    const { income, outcome } = this.transactions.reduce(
+      (accumulator: Balance, currentValue: Transaction) => {
+        switch (currentValue.type) {
+          case 'income':
+            accumulator.income += currentValue.value;
+            break;
+          case 'outcome':
+            accumulator.outcome += currentValue.value;
+            break;
+          default:
+            break;
+        }
 
-  //   return value;
-  // }
+        return accumulator;
+      },
+      {
+        income: 0,
+        outcome: 0,
+        total: 0,
+      },
+    );
+
+    const total = income - outcome;
+
+    return { income, outcome, total };
+  }
 
   public create({ title, value, type }: RequestDTO): Transaction {
     const transaction = new Transaction({ title, value, type });
